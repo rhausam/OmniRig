@@ -315,6 +315,7 @@ var
   S: AnsiString;
   F: single;
   C: Char;
+  DecimalSeparator: char;
 begin
   C := DecimalSeparator;
   DecimalSeparator := '.';
@@ -450,7 +451,7 @@ var
   S: AnsiString;
   F: single;
   D: Double;
-  C: Char;
+  C, DecimalSeparator: Char;
   i: integer;
 begin
   try
